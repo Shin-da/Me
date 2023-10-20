@@ -4,34 +4,44 @@
     right: 0;
     top: 200px;
   }
-
+  .jeff{
+    margin-left: .7vw;
+    margin-bottom: -2.8vh;
+  }
+  .garcia{
+    margin-left: 16.8vh;
+  }
   .name {
     font-size: 6.6rem;
   }
-
+  .picture{
+    margin-top: 19vh;
+  }
   @media (max-width: 2000px) {
-    .Acontainer{
-        /* height: 50vh; */
-    }
     .container1 {
+      display: flex;
+        
         height: 55vh;
+        padding-left: 13vw;
         background-color: #fff3e7;
     }
     .container2{
         height: 55vh;
+        padding-left: 13vw;
         background-color:#544c33;
+    }
+    .names{
+      align-self: end;
     }
     .name{
         /* top:35%;  */
         left:13%;  
-        line-height:.6; 
+        line-height:.7; 
         font-weight:light; 
         font-size:9vw;
     }
     .userPicture{
-        width:15vw; 
-        right: 8vw ; 
-        top:2vh;
+        /* bottom:1vh; */
     }
   }
   
@@ -40,24 +50,22 @@
         /* height: 50vh; */
     }
     .container1 {
-        height: 35vh;
+      margin-top: 0;
+        height: 55vh;
         background-color: #fff3e7;
     }
     .container2{
-        height: 35vh;
+        height: 45vh;
         background-color:#544c33;
     }
     .name{
-        /* top:35%;  */
-        left:13%;  
+       
         line-height:.6; 
         font-weight:light; 
         font-size:9vw;
     }
     .userPicture{
-        width:15vw; 
-        right: 8vw ; 
-        top:2vh;
+        /* top:2vh; */
     }
   }
   
@@ -67,32 +75,27 @@
     }
     .container1 {
       background-color: #fff3e7;
-      padding-: -20%;
       padding-left: 12vw;
-      height: 25vh;
+      height: 45vh;
     }
     .container2{
-      height: 25vh;
+      height: 45vh;
       padding-left: 12vw;
       background-color:#544c33;
     }
     .name{
-        display: flex;
-        align-self: end; 
-        /* left:13%;   */
+        
         line-height:.6; 
         font-weight:light; 
         font-size:9vw;
     }
     .garcia{
-      left: 17vw;
+      /* left: 17vw; */
     }
     .verticalCon{
      height: 50vh;
     }
     .userPicture{
-        width:25vw; 
-        right: 16vw ; 
-        top: 3vh;
+        /* bottom: 3vh; */
     }
   }

@@ -11024,17 +11024,17 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: #b6c06c;
+    color: #566137;
   }
   #mainNav .nav-link:hover {
     color: #544c33;
   }
   #mainNav .nav-link:active {
-    color: #b6c06c;
+    color: #c5b581;
   }
   /* bookmark */
   #mainNav.navbar-shrink {
-    background-color: #c3a96f;
+    background-color: #fff3e7;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11073,7 +11073,7 @@ body {
   /* height: auto; */
   min-height: 35rem;
   padding: 15rem 0;
-  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(""); */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("");
   background-color: #1e2125;
   background-position: center;
   background-repeat: no-repeat;
